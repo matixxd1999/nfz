@@ -28,7 +28,7 @@ class Patients
     private $lastName;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", nullable=true)
      */
     private $DateOfBirth;
 
